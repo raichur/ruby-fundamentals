@@ -17,7 +17,7 @@ end
 p = Person.new({:fname=>'Josh', :lname=>'Raichur', :age=>17})
 puts p
 
-# Better version of the above code: use .has_key> to test if hash param has the correct key
+# Better version of the above code: use .has_key? to test if hash param has the correct key
 # Also use ternary operator: true-or-false ? if-true : if-false
 
 class Person

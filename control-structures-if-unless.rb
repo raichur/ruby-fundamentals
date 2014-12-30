@@ -5,13 +5,16 @@ if x == 2
   puts 'x is 2! (if statement)'
 end
 
-# Unless statement
+# Unless statement (logical opposite of if statement)
 unless x != 2
   puts 'x is 2! (unless statement)'
 end
 
-# Unless alternate syntax
-puts 'x is 2! (unless alternate syntax)' unless x != 2
+# Unless statement alternate syntax
+puts 'x is 2! (unless statement alternate syntax)' unless x != 2
+
+# Same thing with an if statement
+puts 'x is 2! (if statement alternate syntax)' if x == 2
 
 # If else statements
 if x ==2

@@ -11,3 +11,18 @@ puts
 arr.each{|val| puts val}
 
 # Operative statement can be more complex
+arr.each do |val|
+  if val % 10 == 0
+    puts "#{val} is divisible by 10"
+  end
+end
+
+puts
+
+# Iterate over hash
+hash = {:fname => "Josh", :lname => 'Raichur', :age => 17}
+
+# Key-value pair
+hash.each do |key, val|
+  puts "#{key.upcase} is #{val}"
+end

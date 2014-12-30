@@ -9,6 +9,6 @@ def fib_to(max)
   end
 end
 
-fib_to(15) do |f|
+fib_to(150) do |f|
   puts f
 end

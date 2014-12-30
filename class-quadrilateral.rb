@@ -2,6 +2,7 @@
 class Quadrilateral
   # Define one method
   def num_sides
+    # You can either do return 4 or 4, the last line of a method is going to be the return value
     4
   end
 end

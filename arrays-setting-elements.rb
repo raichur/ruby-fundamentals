@@ -21,5 +21,5 @@ puts
 puts "************"
 puts
 
-arr[0..3] = 1, 1, 1, 1
+arr[0..3] = 1, 1, 1, 1 # Setting a range of values
 puts arr

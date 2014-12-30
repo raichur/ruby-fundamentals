@@ -18,7 +18,9 @@ puts
 
 # 2. Write method items_with_cost_greater_than which returns a hash of products:
 def items_with_cost_greater_than(products, min_cost)
-  
+  products.find_all do |prod|
+    prod[:cost] > min_cost
+  end
 end
 
 min_cost = 17

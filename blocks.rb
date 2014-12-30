@@ -29,3 +29,26 @@ iterator1 do
 end
 
 puts '****************'
+
+def iterator2
+  puts "I am iterator2"
+  puts "Just before yield"
+  i = 4
+  yield(i)
+  puts "Just after yield"
+end
+
+iterator2 do |x|
+  puts "I am the code block - #{x}"
+  puts "iterator2 yielded to me"
+end
+
+puts '****************'
+
+# Scope of block param
+
+x = 10
+5.times do |x|
+  puts "x inside the block: #{x}"
+end
+puts "x outside the block: #{x}"

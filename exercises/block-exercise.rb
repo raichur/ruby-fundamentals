@@ -26,6 +26,7 @@ class Array
     self.each do |i|
       return i if yield(i)
     end
+    return nil
   end
 end
 

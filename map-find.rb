@@ -1,4 +1,4 @@
-names = ['Alice', 'Bob', 'Carl', 'John']
+names = ['alice', 'Bob', 'Carl', 'JoHn']
 
 # Collect is same as map
 

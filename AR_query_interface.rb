@@ -1,3 +1,4 @@
+# Commands you can use in the rails command line. "rails c"
 u = User.find(1)
 
 u = User.find(123149503)
